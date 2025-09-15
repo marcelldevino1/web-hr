@@ -20,7 +20,7 @@ class SalarygradesTable
                 TextColumn::make('grade_name'),
                 TextColumn::make('minimum_salary'),
                 TextColumn::make('maximum_salary'),
-                TextColumn::make('description'),
+                TextColumn::make('description'),    
             ])
             ->filters([
                 //
