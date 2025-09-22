@@ -22,7 +22,7 @@ class AttendanceResource extends Resource
     protected static ?string $model = Attendance::class;
 
     // Ikon navigation
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedCalendarDays;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedClipboardDocumentList;
 
     // Group navigation (misal "Absensi")
     protected static string|UnitEnum|null $navigationGroup = 'Absensi';
